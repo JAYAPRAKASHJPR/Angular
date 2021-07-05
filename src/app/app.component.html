@@ -1,0 +1,6 @@
+<p>
+  Start editing to see some magic happen :)
+</p>
+<button (click) = "toggle($event)" > Click Toggle </button> {{this.tog}}
+<input  type="text" value = "sample" [(ngModel)] = "name"/>
+<hello *ngIf=tog [name] = "name"> </hello>
